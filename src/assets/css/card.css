@@ -1,0 +1,59 @@
+.cardCart {
+    position: absolute;
+    top: 119px;
+    right: 10%;
+    width: 317px;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBet {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 40px
+}
+
+.imgTrash {
+    width: 20px;
+    height: 24px;
+    margin-left: 5px;margin-right: 10px;
+    cursor: pointer;
+}
+
+.numbersBet {
+    width: 234px;
+    height: 38px;
+    font: italic normal bold 15px Helvetica Neue;
+    color: #868686;
+}
+
+.priceBet {
+    margin-left: 5px;
+    font: normal normal normal 16px Helvetica Neue;
+    color: #868686;
+}
+
+.saveBetContainer {
+    margin-left: -1px;
+    margin-bottom: -1px;
+    width: 317px;
+    height: 96px;
+    background: #F4F4F4;
+    border: 1px solid #E2E2E2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: italic normal bold 35px Helvetica Neue;
+    color: #27C383;
+    cursor: pointer;
+    outline: none;
+}

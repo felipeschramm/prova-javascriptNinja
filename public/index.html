@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/assets/css/header.css" type="text/css">
+    <link rel="stylesheet" href="../src/assets/css/bet.css" type="text/css">
+    <link rel="stylesheet" href="../src/assets/css/card.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue" rel="stylesheet"
+        type="text/css" />
+    <title>Loteria</title>
+</head>
+
+<body class="containerSite">
+
+    <div class="containerHeader">
+        <div class="divsHeader">
+            <label class="tgl">TGL</label>
+            <label class="menuHeader">Home</label>
+        </div>
+        <div class="divsHeader">
+            <label class="menuHeader">Account</label>
+            <label class="menuHeader">Log out ➝</label>
+        </div>
+    </div>
+
+    <div class="bottomTgl"></div>
+
+    <div class="bodyBet">
+        <div><label class="title24Bold">NEW BET</label><span class="title24"></span></div>
+        <div class="chooseGameLabel">Choose a game</div>
+        <div data-js="insertButtonsTypes">
+            <button class="betType lotofacilType" value="Lotofácil" data-js="typeButton"
+                data-selected=false>Lotofácil</button>
+            <button class="betType megasenaType" value="Mega-Sena" data-js="typeButton"
+                data-selected=false>Mega-Sena</button>
+            <button class="betType lotomaniaType" value="Quina" data-js="typeButton"
+                data-selected=false>Quina</button>
+        </div>
+        <div class="fillLabel">Fill your bet</div>
+        <div class="descriptionBet"></div>
+        <div style="width: 800px;" data-js="bettingCardNumbers"></div>
+
+        <div class="buttonsBottom">
+            <div style="width: 50%;">
+                <button class="completeClearButton" data-js="complete" style="margin-right: 20px;">Complete
+                    game</button>
+                <button class="completeClearButton" data-js="clear">Clear game</button>
+            </div>
+
+            <div>
+                <button class="addCartButton" data-js="addCart"><img src='../src/assets/images/cart.svg'
+                        style="width: 26px; height: 25px; margin-right: 20px;" /> Add to cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="cardCart">
+        <label class="title24Bold" style="margin-left: 19px;">
+            CART
+        </label>
+
+        <div data-js="betInfo">
+        </div>
+
+        <div style="margin-bottom: 45px">
+            <label class="title24Bold" style="margin-left: 19px;">CART</label><span class="title24"
+                data-js="total"></span>
+        </div>
+        <div class="saveBetContainer" data-js="save">
+            Save ➝
+        </div>
+    </div>
+
+    <script src="../src/pages/bets.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

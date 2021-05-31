@@ -1,0 +1,49 @@
+.containerSite {
+    width: 100%;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    height: auto;
+}
+
+.tgl {
+    font: italic normal bold 44px Helvetica Neue;
+    color: #707070;
+    margin-top: 15px;
+}
+
+.containerHeader {
+    width: 100%;
+    height: 75.5px;
+    border-bottom: 2px solid #EBEBEB;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divsHeader {
+    display: flex;
+    align-items: center;
+}
+
+.menuHeader {
+    margin-left: 50px;
+    font: italic normal bold 20px Helvetica Neue;
+    color: #707070;
+    margin-top: 15px;
+}
+
+.bottomTgl {
+    position: absolute;
+    top: 72px;
+    left: 10%;
+    width: 95px;
+    height: 7px;
+    background-color: #B5C401;
+    border-radius: 6px;
+}
+
